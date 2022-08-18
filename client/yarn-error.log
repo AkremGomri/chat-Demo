@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\illim\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add server.io-client
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Polyspace\R2019a\runtime\win64;C:\Program Files\Polyspace\R2019a\bin;C:\Program Files\Polyspace\R2019a\polyspace\bin;C:\Program Files (x86)\dotnet\;C:\xampp\php;C:\composer;C:\xampp\symfony;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u332-b09\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\illim\AppData\Local\Microsoft\WindowsApps;C:\Users\illim\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\illim\AppData\Roaming\npm;C:\Program Files\java\jdk-17\bin;C:\Program Files\JetBrains\WebStorm 2021.1.3\bin;;C:\Program Files\Java\jdk-11.0.15\bin;C:\Users\illim\AppData\Roaming\Composer\vendor\bin;C:\Users\illim\AppData\Local\Programs\mongosh\;C:\Program Files (x86)\Nmap;C:\xampp\symfony;C:\Users\illim\AppData\Local\Android\Sdk\platform-tools;
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.17.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/server.io-client: Not found
+      at Request.params.callback [as _callback] (C:\Users\illim\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\illim\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (C:\Users\illim\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:375:28)
+      at IncomingMessage.<anonymous> (C:\Users\illim\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:481:28)
+      at IncomingMessage.emit (events.js:387:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "snowpack dev"
+    },
+    "author": "Akrem Gomri",
+    "license": "ISC",
+    "devDependencies": {
+      "snowpack": "^3.8.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
